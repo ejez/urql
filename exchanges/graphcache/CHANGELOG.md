@@ -1,5 +1,11 @@
 # @urql/exchange-graphcache
 
+## 4.1.2
+
+### Patch Changes
+
+- Loosen type constraint on `ScalarObject` to account for custom scalar deserialization like `Date` for `DateTime`s, by [@kitten](https://github.com/kitten) (See [#1648](https://github.com/FormidableLabs/urql/pull/1648))
+
 ## 4.1.1
 
 ### Patch Changes
